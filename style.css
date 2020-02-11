@@ -1,0 +1,41 @@
+*::after ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  height: 4rem;
+  background-color: aqua;
+  padding: 1rem;
+}
+
+.content {
+  display: flex;
+}
+
+nav {
+  flex: 0 0 30%;
+  background-color:blueviolet;
+  padding: 1rem;
+  height: 10rem;
+}
+
+nav > a {
+  margin: 1rem;
+}
+
+main {
+  flex: 1;
+  background-color: burlywood;
+  padding: 1rem;
+}
