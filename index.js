@@ -8,15 +8,15 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <header>Logo</header>
+        <header className="header">Logo</header>
         <div className="content">
-          <nav>
+          <nav className="sidebar">
             <a href="">One</a>
             <a href="">Two</a>
             <a href="">Three</a>
             <a href="">Four</a> 
           </nav>
-          <main>
+          <main className="main-area">
             Main Content
           </main>
         </div>
